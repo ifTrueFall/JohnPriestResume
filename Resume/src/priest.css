@@ -1,0 +1,126 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #e5d3c9;
+	color: #3e2723;
+	line-height: 1.6;
+	margin: 20px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section {
+	margin-bottom: 0;
+	
+}
+
+h2 {
+	color: #4e342e;
+	margin-bottom: 10px;
+}
+h1{
+	margin-bottom: 0;
+}
+h4{
+	margin-top: 0;
+	
+	margin-bottom: 0;
+}
+
+.with-image {
+	display: flex;
+	align-items: center;
+}
+
+.with-image img {
+	width: 300px;
+	margin-right: 20px;
+	transform: on-hover;
+}
+
+.with-image img:hover {
+	transform: scale(1.1);
+}
+
+.with-image .content {
+	flex: 1; 
+}
+.content {
+	border: 2px solid #8d6e63;
+	background-color: #f2e9e4;
+	padding: 10px;
+}
+
+hr {
+	border: 1px solid #8d6e63;
+	margin: 0;
+}
+.skills-container {
+	display: flex;
+}
+.skill-category {
+	width: 300px;
+}
+.skillsBranch {
+	border: 2px solid #8d6e63;
+	background-color: #f2e9e4;
+	margin: 0;
+	padding: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+th, td {
+	vertical-align: top;
+	text-align: left;
+}
+td {
+	white-space: nowrap;
+}
+.skillOne,.skillTwo,.skillThree, .skillFour {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: top;
+}
+.skillTwo{
+	padding-right: 60px;
+}
+.skillFour {
+	margin-right: 0;
+}
+
+.wExperiences{
+	border: 2px solid #8d6e63;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #f2e9e4;
+	padding: 10px;
+}
+
+.experiences-container {
+    display: flex;
+	
+}
+
+.wExperiences,
+.CompProjects, .BiologyProject, .Hobbies {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #8d6e63;
+    background-color: #f2e9e4;
+    margin-top: 10px;
+}
+
+.CompProjects, .BiologyProject, .Hobbies {
+	margin-left: 10px;
+	white-space: nowrap;
+	width: auto;
+	height: auto;
+
+.wExperiences {
+    margin-right: 10px;
+}
