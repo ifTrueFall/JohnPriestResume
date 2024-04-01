@@ -15,6 +15,7 @@ header {
 
 section {
 	margin-bottom: 0;
+	padding: 0 20px;
 	
 }
 p {
@@ -38,15 +39,17 @@ h4{
 }
 
 .with-image {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 0 20px;
 }
 
 .with-image img {
-	width: 20%;
-	min-width:width: 50%;
-	margin-right: 20px;
-	transform: on-hover;
+    width: 100%;
+    max-width: 300px; 
+    margin-right: 20px;
 }
 
 .with-image img:hover {
@@ -145,7 +148,7 @@ td {
 	
 }
 .tooltip span {
-            color: black;
+         color: black;
         }
 .tooltip {
 	position: relative;
@@ -169,6 +172,7 @@ td {
 @media screen and (max-width: 768px) {
     .with-image img {
         width: 30%;
+		max-width: 100%;
     }
 
     .Section-container {
@@ -180,9 +184,16 @@ td {
     .CompProjects,
     .BiologyProject,
     .Hobbies {
-        margin-left: 0;
+        margin-left: 10px;
         margin-top: 10px;
-        margin-right: 0;
+        margin-right: 10px;
         width: 100%;
+    }
+	    .tooltip .tooltiptext {
+        display: none;
+    }
+
+    .tooltip:hover .tooltiptext {
+        display: none;
     }
 }
